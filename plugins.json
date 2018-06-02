@@ -11,5 +11,19 @@
     "description": "Full templates. Includes database, css, js and other public files.",
     "license": "MIT",
     "web": "https://github.com/ThomasTJdev/nimwc_templates"
+  },
+  {
+    "name": "Open registration",
+    "foldername": "openregistration",
+    "version": "0.1",
+    "url": "https://github.com/ThomasTJdev/nimwc_openregistration.git",
+    "method": "git",
+    "tags": [
+      "login",
+      "registration"
+    ],
+    "description": "Enables public users to register an account with the status 'user'.",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/nimwc_openregistration"
   }
 ]
