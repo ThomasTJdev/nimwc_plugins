@@ -1,18 +1,5 @@
 [
   {
-    "name": "templates",
-    "foldername": "nimwc_templates",
-    "version": "0.1",
-    "url": "https://github.com/ThomasTJdev/nimwc_templates.git",
-    "method": "git",
-    "tags": [
-      "templates"
-    ],
-    "description": "Full templates. Includes database, css, js and other public files.",
-    "license": "MIT",
-    "web": "https://github.com/ThomasTJdev/nimwc_templates"
-  },
-  {
     "name": "Open registration",
     "foldername": "openregistration",
     "version": "0.1",
