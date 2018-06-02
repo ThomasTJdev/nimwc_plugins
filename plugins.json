@@ -1,6 +1,7 @@
 [
   {
     "name": "templates",
+    "foldername": "nimwc_templates",
     "url": "https://github.com/ThomasTJdev/nimwc_templates.git",
     "method": "git",
     "tags": [
