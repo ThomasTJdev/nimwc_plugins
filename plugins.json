@@ -26,5 +26,19 @@
     "description": "Cron job to make backups of the websites database",
     "license": "MIT",
     "web": "https://github.com/ThomasTJdev/nimwc_backup"
+  },
+  {
+    "name": "Contact",
+    "foldername": "contact",
+    "version": "0.1",
+    "url": "https://github.com/ThomasTJdev/nimwc_contact.git",
+    "method": "git",
+    "tags": [
+      "mail",
+      "contact"
+    ],
+    "description": "Contactform to send mails to the webpages support mail address",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/nimwc_contact"
   }
 ]
