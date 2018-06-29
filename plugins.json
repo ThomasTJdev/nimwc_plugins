@@ -12,5 +12,19 @@
     "description": "Enables public users to register an account with the status 'user'.",
     "license": "MIT",
     "web": "https://github.com/ThomasTJdev/nimwc_openregistration"
+  },
+  {
+    "name": "Backup",
+    "foldername": "backup",
+    "version": "0.1",
+    "url": "https://github.com/ThomasTJdev/nimwc_backup.git",
+    "method": "git",
+    "tags": [
+      "backup",
+      "database"
+    ],
+    "description": "Cron job to make backups of the websites database",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/nimwc_backup"
   }
 ]
