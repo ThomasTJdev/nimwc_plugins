@@ -37,7 +37,7 @@
       "mail",
       "contact"
     ],
-    "description": "Contactform to send mails to the webpages support mail address",
+    "description": "Contactform to send mails to the webpage support mail address",
     "license": "MIT",
     "web": "https://github.com/ThomasTJdev/nimwc_contact"
   }
