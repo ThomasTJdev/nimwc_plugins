@@ -55,5 +55,18 @@
     "description": "Cron mailer to send mails to all registered users at specific time",
     "license": "MIT",
     "web": "https://github.com/ThomasTJdev/nimwc_mailer"
+  },
+  {
+    "name": "templates",
+    "foldername": "templates",
+    "version": "0.1",
+    "url": "https://github.com/ThomasTJdev/nimwc_templates.git",
+    "method": "git",
+    "tags": [
+      "templates"
+    ],
+    "description": "Full templates. Includes database, css, js and images.",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/nimwc_templates"
   }
 ]
