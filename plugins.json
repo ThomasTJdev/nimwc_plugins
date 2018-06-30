@@ -68,5 +68,20 @@
     "description": "Full templates. Includes database, css, js and images.",
     "license": "MIT",
     "web": "https://github.com/ThomasTJdev/nimwc_templates"
+  },
+  {
+    "name": "themes",
+    "foldername": "themes",
+    "version": "0.1",
+    "url": "https://github.com/ThomasTJdev/nimwc_themes.git",
+    "method": "git",
+    "tags": [
+      "themes",
+      "style",
+      "stylesheet"
+    ],
+    "description": "Switch between different themes/stylesheets. Save you design to a CSS file.",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/nimwc_themes"
   }
 ]
