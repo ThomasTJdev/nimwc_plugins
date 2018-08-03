@@ -10,21 +10,21 @@ Plugin repository for [Nim Website Creator](https://github.com/ThomasTJdev/nim_w
 
 ## Plugin repo
 
-To update with available plugins go to `<webpage>/plugins/repo`. NimWC will clone this repo to ensure, that the latest available plugins are shown.
+To update the available plugins go to `<webpage>/plugins/repo`. NimWC will clone this repo to ensure, that the latest available plugins are shown.
 
 ## Enable/disable a plugin
 
 To enable or disable a plugin go to `<webpage>/plugins`. Only plugins installed at `<webpage>/plugins/repo` will be available.
 
-Plugins are loaded at compiletime with macros, therefore it will take from 5-30 seconds to enable or disable a plugin. The interface will notify you, when the plugin is installed.
+Plugins are loaded at compile time with macros, therefore it can take up to ~60 seconds to enable or disable a plugin. The interface will notify you, when the plugin is installed.
 
 ## Contribute
 
 To make a plugin public accessible, you need to add it to the `plugins.json` in this [plugin repo](https://github.com/ThomasTJdev/nimwc_plugins).
 
-Make a pull request where you have added your plugin data to `plugins.json`.
+Make a pull request where you have added your plugin data to the **bottom** of `plugins.json`.
 
-When you release a new version of your plugin, you need to increase the version in your plugin repo file `plugin.json` and in this repo file `plugins.json`. Otherwise the users will not notice, that your have release a new version.
+When you release a new version of your plugin, you need to increase the version in your own plugin repo file `plugin.json` and in this repos file `plugins.json`. Otherwise the users will not notice, that your have released a new version.
 
 
 # Available plugins
@@ -38,7 +38,7 @@ You can access the plugin at `/backup`.
 
 ## Plugin: Contact
 
-A simple contact form for non-logged in users. The email will be sent to the info-email specified in the `config.cfg` file.
+A simple contact form for non-logged in users. The email will be sent to the info address specified in the `config.cfg` file.
 
 You can access the plugin at `/contact`. This link can be added to the navbar manually.
 
@@ -75,9 +75,9 @@ You can access the plugin at `/themes/settings`.
 A plugin needs the following structure:
 
 ```
-mailer/
+templates/
   - html.tmpl   (optional)
-  - mailer.nim  (required)
+  - templates.nim  (required)
   - routes.nim  (required)
   - plugin.json (required)
   - public/
@@ -88,14 +88,14 @@ mailer/
 ```
 
 ## plugin.json
-This file contains information about the plugin. *(Standard plugins does not have this file)*
+This file contains information about the plugin.
 
 The file needs this formatting:
 ```JSON
 [
   {
-    "name": "templates",
-    "foldername": "nimwc_templates",
+    "name": "Templates",
+    "foldername": "templates",
     "version": "0.1",
     "url": "https://github.com/ThomasTJdev/nimwc_templates.git",
     "method": "git",
@@ -110,12 +110,12 @@ The file needs this formatting:
 ```
 
 
-## mailer.nim
+## templates.nim
 Includes the plugins proc()'s etc.
 
 It is required to include a proc named `proc <pluginname>Start*(db: DbConn) =`
 
-For the mailer plugin this would be: `proc mailerStart*(db: DbConn) =` . If this proc is not needed, just `discard` the content.
+For the templates plugin this would be: `proc templatesStart*(db: DbConn) =` . If this proc is not needed, just `discard` the content.
 
 
 ## routes.nim
@@ -126,17 +126,17 @@ It is required to include a route with `/<pluginname>/settings`. This page shoul
 
 ## *.js and *.css
 
-On compiletime `js.js`, `js_private.js`, `style.css` and `style_private.css` are copied from the plugins public folder to the official public folder, if the files contains text.
+At compile time `js.js`, `js_private.js`, `style.css` and `style_private.css` are copied from the plugins public folder to the official public folder, if the files contains text.
 
 ### JS files
-The files will be renamed to `mailer.js` and `mailer_private.js`
+The files will be renamed to `templates.js` and `templates_private.js`
 
 ### CSS files
-The files will be renamed to `mailer.css` and `mailer_private.css`.
+The files will be renamed to `templates.css` and `templates_private.css`.
 
 ### Importing 
 
-A `<link>` and/or a `<script>` tag to `mailer.css`/`mailer.js` will be appended to the all pages, if `js.js` or `style.css` contains text.
+A `<link>` and/or a `<script>` tag to `templates.css`/`templates.js` will be appended to the all pages, if `js.js` or `style.css` contains text.
 
 The `*_private` files needs to be included manually.
 

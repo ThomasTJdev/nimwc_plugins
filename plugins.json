@@ -57,7 +57,7 @@
     "web": "https://github.com/ThomasTJdev/nimwc_mailer"
   },
   {
-    "name": "templates",
+    "name": "Templates",
     "foldername": "templates",
     "version": "0.1",
     "url": "https://github.com/ThomasTJdev/nimwc_templates.git",
@@ -70,7 +70,7 @@
     "web": "https://github.com/ThomasTJdev/nimwc_templates"
   },
   {
-    "name": "themes",
+    "name": "Themes",
     "foldername": "themes",
     "version": "0.1",
     "url": "https://github.com/ThomasTJdev/nimwc_themes.git",
