@@ -1,36 +1,22 @@
 [
   {
-    "name": "Open registration",
-    "foldername": "openregistration",
-    "version": "0.1",
-    "url": "https://github.com/ThomasTJdev/nimwc_openregistration.git",
-    "method": "git",
-    "tags": [
-      "login",
-      "registration"
-    ],
-    "description": "Enables public users to register an account with the status 'user'.",
-    "license": "MIT",
-    "web": "https://github.com/ThomasTJdev/nimwc_openregistration"
-  },
-  {
     "name": "Backup",
     "foldername": "backup",
-    "version": "0.2",
+    "version": "0.3",
     "url": "https://github.com/ThomasTJdev/nimwc_backup.git",
     "method": "git",
     "tags": [
       "backup",
       "database"
     ],
-    "description": "Cron job to make backups of the websites database",
+    "description": "Cron job to make backups of the database",
     "license": "MIT",
     "web": "https://github.com/ThomasTJdev/nimwc_backup"
   },
   {
     "name": "Contact",
     "foldername": "contact",
-    "version": "0.1",
+    "version": "0.2",
     "url": "https://github.com/ThomasTJdev/nimwc_contact.git",
     "method": "git",
     "tags": [
@@ -44,7 +30,7 @@
   {
     "name": "Mailer",
     "foldername": "mailer",
-    "version": "0.1",
+    "version": "0.2",
     "url": "https://github.com/ThomasTJdev/nimwc_mailer.git",
     "method": "git",
     "tags": [
@@ -57,9 +43,23 @@
     "web": "https://github.com/ThomasTJdev/nimwc_mailer"
   },
   {
+    "name": "Open registration",
+    "foldername": "openregistration",
+    "version": "0.2",
+    "url": "https://github.com/ThomasTJdev/nimwc_openregistration.git",
+    "method": "git",
+    "tags": [
+      "login",
+      "registration"
+    ],
+    "description": "Enables public users to register an account with the status 'user'.",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/nimwc_openregistration"
+  },
+  {
     "name": "Templates",
     "foldername": "templates",
-    "version": "0.1",
+    "version": "0.2",
     "url": "https://github.com/ThomasTJdev/nimwc_templates.git",
     "method": "git",
     "tags": [
@@ -72,7 +72,7 @@
   {
     "name": "Themes",
     "foldername": "themes",
-    "version": "0.1",
+    "version": "0.2",
     "url": "https://github.com/ThomasTJdev/nimwc_themes.git",
     "method": "git",
     "tags": [
