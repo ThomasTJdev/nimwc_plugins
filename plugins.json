@@ -2,7 +2,7 @@
   {
     "name": "Backup",
     "foldername": "backup",
-    "version": "0.3",
+    "version": "0.4",
     "url": "https://github.com/ThomasTJdev/nimwc_backup.git",
     "method": "git",
     "tags": [
