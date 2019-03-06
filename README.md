@@ -134,9 +134,54 @@ The files will be renamed to `templates.js` and `templates_private.js`
 ### CSS files
 The files will be renamed to `templates.css` and `templates_private.css`.
 
-### Importing 
+### Importing
 
 A `<link>` and/or a `<script>` tag to `templates.css`/`templates.js` will be appended to the all pages, if `js.js` or `style.css` contains text.
 
 The `*_private` files needs to be included manually.
 
+
+# JSON Checker
+
+- This repo includes a JSON Checker for consistency.
+- All JSON keys and values are checked.
+- Compile with SSL `-d:ssl` to check On-Line using Internet, optional.
+
+```
+$ nim c -r -d:ssl check_json.nim
+
+[Suite] Packages consistency testing
+  [OK] Check Basic Structure
+  [OK] Check Tags
+  [OK] Check Methods
+  [OK] Check Licenses
+  [OK] Check Names
+  [OK] Check Versions
+  [OK] Check Requires
+  [OK] Check Foldernames
+  [OK] Check Webs Off-Line
+D, [2019-03-06T16:12:32] -- check_json: https://github.com/thomastjdev/nimwc_backup
+D, [2019-03-06T16:12:33] -- check_json: https://github.com/thomastjdev/nimwc_contact
+D, [2019-03-06T16:12:34] -- check_json: https://github.com/thomastjdev/nimwc_mailer
+D, [2019-03-06T16:12:35] -- check_json: https://github.com/thomastjdev/nimwc_openregistration
+D, [2019-03-06T16:12:35] -- check_json: https://github.com/thomastjdev/nimwc_templates
+D, [2019-03-06T16:12:36] -- check_json: https://github.com/thomastjdev/nimwc_themes
+  [OK] Check Webs On-Line
+  [OK] Check Sustainability On-Line
+  [OK] Check URLs Off-Line
+D, [2019-03-06T16:12:36] -- check_json: https://github.com/thomastjdev/nimwc_backup.git
+D, [2019-03-06T16:12:37] -- check_json: https://github.com/thomastjdev/nimwc_backup.git
+D, [2019-03-06T16:12:38] -- check_json: https://github.com/thomastjdev/nimwc_contact.git
+D, [2019-03-06T16:12:38] -- check_json: https://github.com/thomastjdev/nimwc_contact.git
+D, [2019-03-06T16:12:39] -- check_json: https://github.com/thomastjdev/nimwc_mailer.git
+D, [2019-03-06T16:12:40] -- check_json: https://github.com/thomastjdev/nimwc_mailer.git
+D, [2019-03-06T16:12:40] -- check_json: https://github.com/thomastjdev/nimwc_openregistration.git
+D, [2019-03-06T16:12:41] -- check_json: https://github.com/thomastjdev/nimwc_openregistration.git
+D, [2019-03-06T16:12:42] -- check_json: https://github.com/thomastjdev/nimwc_templates.git
+D, [2019-03-06T16:12:43] -- check_json: https://github.com/thomastjdev/nimwc_templates.git
+D, [2019-03-06T16:12:44] -- check_json: https://github.com/thomastjdev/nimwc_themes.git
+D, [2019-03-06T16:12:44] -- check_json: https://github.com/thomastjdev/nimwc_themes.git
+  [OK] Check URLs On-Line
+
+$
+```
