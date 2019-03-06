@@ -124,7 +124,7 @@ The file needs this formatting:
 - `"tags"` Plugin Tags, Human Readable, Array of strings, no empty Array, no empty strings, no trailing whitespaces, will be used to display Rendered Tag cloud on Plugin Store, 10 Tags max.
 - `"description"` Plugin Description, Human Readable, string type, can be MarkDown/ResTructuredText/Plain Text, will be used to display Rendered HTML on Plugin Store, no empty string, no trailing whitespaces.
 - `"license"` Plugin License, Human Readable, Not an HTTP link, string type, no empty string, no trailing whitespaces.
-- `"web"` Plugin Web home page, HTTPS preferred, must be OnLine, Human Readable, string type, no empty string, no trailing whitespaces.
+- `"web"` Plugin Web home page, HTTPS preferred, must be OnLine, can be a GitHub/GitLab Pages, Human Readable, string type, no empty string, no trailing whitespaces.
 - `"email"` Plugin Authors EMail, Human Readable, string type, will be used to display Libravatar/Gravatar on Plugin Store, you can use it to display your Logo of your Freelancing/Cooperative on Plugin Store, can be empty string, no trailing whitespaces.
 - `"sustainability"` Plugin Authors way to Self-Sustainable Development, eg Patreon, Liberapay, Bitcoin Address, etc, will be used to display on Plugin Store, HTTPS preferred, string type, can be empty string, no trailing whitespaces. We would love to make Open Source Self-Sustainable, will you help us?.
 
