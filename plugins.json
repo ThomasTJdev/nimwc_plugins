@@ -3,6 +3,7 @@
     "name": "Backup",
     "foldername": "backup",
     "version": "0.4",
+    "requires": "5.0",
     "url": "https://github.com/ThomasTJdev/nimwc_backup.git",
     "method": "git",
     "tags": [
@@ -11,12 +12,15 @@
     ],
     "description": "Cron job to make backups of the database",
     "license": "MIT",
-    "web": "https://github.com/ThomasTJdev/nimwc_backup"
+    "web": "https://github.com/ThomasTJdev/nimwc_backup",
+    "sustainability": "",
+    "email": ""
   },
   {
     "name": "Contact",
     "foldername": "contact",
     "version": "0.3",
+    "requires": "5.0",
     "url": "https://github.com/ThomasTJdev/nimwc_contact.git",
     "method": "git",
     "tags": [
@@ -25,12 +29,15 @@
     ],
     "description": "Contactform to send mails to the webpage support mail address",
     "license": "MIT",
-    "web": "https://github.com/ThomasTJdev/nimwc_contact"
+    "web": "https://github.com/ThomasTJdev/nimwc_contact",
+    "sustainability": "",
+    "email": ""
   },
   {
     "name": "Mailer",
     "foldername": "mailer",
     "version": "0.2",
+    "requires": "5.0",
     "url": "https://github.com/ThomasTJdev/nimwc_mailer.git",
     "method": "git",
     "tags": [
@@ -40,12 +47,15 @@
     ],
     "description": "Cron mailer to send mails to all registered users at specific time",
     "license": "MIT",
-    "web": "https://github.com/ThomasTJdev/nimwc_mailer"
+    "web": "https://github.com/ThomasTJdev/nimwc_mailer",
+    "sustainability": "",
+    "email": ""
   },
   {
     "name": "Open registration",
     "foldername": "openregistration",
     "version": "0.2",
+    "requires": "5.0",
     "url": "https://github.com/ThomasTJdev/nimwc_openregistration.git",
     "method": "git",
     "tags": [
@@ -54,12 +64,15 @@
     ],
     "description": "Enables public users to register an account with the status 'user'.",
     "license": "MIT",
-    "web": "https://github.com/ThomasTJdev/nimwc_openregistration"
+    "web": "https://github.com/ThomasTJdev/nimwc_openregistration",
+    "sustainability": "",
+    "email": ""
   },
   {
     "name": "Templates",
     "foldername": "templates",
     "version": "0.2",
+    "requires": "5.0",
     "url": "https://github.com/ThomasTJdev/nimwc_templates.git",
     "method": "git",
     "tags": [
@@ -67,12 +80,15 @@
     ],
     "description": "Full templates. Includes database, css, js and images.",
     "license": "MIT",
-    "web": "https://github.com/ThomasTJdev/nimwc_templates"
+    "web": "https://github.com/ThomasTJdev/nimwc_templates",
+    "sustainability": "",
+    "email": ""
   },
   {
     "name": "Themes",
     "foldername": "themes",
     "version": "0.2",
+    "requires": "5.0",
     "url": "https://github.com/ThomasTJdev/nimwc_themes.git",
     "method": "git",
     "tags": [
@@ -82,6 +98,8 @@
     ],
     "description": "Switch between different themes/stylesheets. Save you design to a CSS file.",
     "license": "MIT",
-    "web": "https://github.com/ThomasTJdev/nimwc_themes"
+    "web": "https://github.com/ThomasTJdev/nimwc_themes",
+    "sustainability": "",
+    "email": ""
   }
 ]
