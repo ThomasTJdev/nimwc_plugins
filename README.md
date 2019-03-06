@@ -97,6 +97,7 @@ The file needs this formatting:
     "name": "Templates",
     "foldername": "templates",
     "version": "0.1",
+    "requires": "5.0",
     "url": "https://github.com/ThomasTJdev/nimwc_templates.git",
     "method": "git",
     "tags": [
@@ -104,10 +105,28 @@ The file needs this formatting:
     ],
     "description": "Full templates. Includes database, css, js and other public files.",
     "license": "MIT",
-    "web": "https://github.com/ThomasTJdev/nimwc_templates"
+    "web": "https://github.com/ThomasTJdev/nimwc_templates",
+    "sustainability": "",
+    "email": "user@example.com"
   }
 ]
 ```
+
+
+# JSON Fields Description
+
+- `"name"` Plugin Name, Human Readable, string type, no empty string, no trailing whitespaces.
+- `"foldername"` Folder Name, Human Readable, string type, no empty string, no trailing whitespaces.
+- `"version"` Plugin Version as a Float, Human Readable, string type, no empty string, no trailing whitespaces.
+- `"requires"` Minimum NimWc Version as a Float, `>= 5.0`, Human Readable, string type, no empty string, no trailing whitespaces.
+- `"url"` Git clone URL, HTTPS preferred, must be OnLine, Human Readable, string type, no empty string, no trailing whitespaces.
+- `"method"` Must be `"git"`
+- `"tags"` Plugin Tags, Human Readable, Array of strings, no empty Array, no empty strings, no trailing whitespaces, will be used to display Rendered Tag cloud on Plugin Store, 10 Tags max.
+- `"description"` Plugin Description, Human Readable, string type, can be MarkDown/ResTructuredText/Plain Text, will be used to display Rendered HTML on Plugin Store, no empty string, no trailing whitespaces.
+- `"license"` Plugin License, Human Readable, string type, no empty string, no trailing whitespaces.
+- `"web"` Plugin Web home page, HTTPS preferred, must be OnLine, Human Readable, string type, no empty string, no trailing whitespaces.
+- `"email"` Plugin Authors EMail, Human Readable, string type, will be used to display Libravatar/Gravatar on Plugin Store, you can use it to display your Logo of your Freelancing/Cooperative on Plugin Store, can be empty string, no trailing whitespaces.
+- `"sustainability"` Plugin Authors way to Self-Sustainable Development, eg Patreon, Liberapay, Bitcoin Address, etc, will be used to display on Plugin Store, string type, can be empty string, no trailing whitespaces. We would love to make Open Source Self-Sustainable, will you help us?.
 
 
 ## templates.nim
