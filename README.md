@@ -1,8 +1,8 @@
 # Plugins for Nim Website Creator (NimWC)
 
-Plugin repository for [Nim Website Creator](https://github.com/ThomasTJdev/nim_websitecreator).
+- Plugin repository for [Nim Website Creator](https://github.com/ThomasTJdev/nim_websitecreator).
 
-
+![Plugin Store Screenshot](nimwc-plugin-store.jpg "Screenshot")
 
 
 
