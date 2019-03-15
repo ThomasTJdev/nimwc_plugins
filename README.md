@@ -4,6 +4,7 @@
 
 ![Plugin Store Screenshot](nimwc-plugin-store.jpg "Screenshot")
 
+![Plugin Store Screenshot](https://user-images.githubusercontent.com/1189414/54094225-19d76e80-437e-11e9-83dd-471c4597e589.png "Screenshot")
 
 
 # Plugins
