@@ -118,5 +118,22 @@
     "web": "https://github.com/ThomasTJdev/nimwc_statistics",
     "sustainability": "",
     "email": "codefactory@ttj.dk"
+  },
+  {
+    "name": "Calendar",
+    "foldername": "calendar",
+    "version": "0.1",
+    "requires": "5.0",
+    "url": "https://github.com/juancarlospaco/nimwc-calendar.git",
+    "method": "git",
+    "tags": [
+      "calendar",
+      "events"
+    ],
+    "description": "Simple & minimal full-page **Events Calendar** for Nim Website Creator, uses ISO Date as URL, Time agnostic (whole day events), English/Spanish, MarkDown/RST Descriptions.",
+    "license": "PPL",
+    "web": "https://github.com/juancarlospaco/nim-calendar",
+    "sustainability": "",
+    "email": "juancarlospaco@gmail.com"
   }
 ]
