@@ -135,5 +135,23 @@
     "web": "https://github.com/juancarlospaco/nim-calendar",
     "sustainability": "",
     "email": "juancarlospaco@gmail.com"
+  },
+  {
+    "name": "Newsletter",
+    "foldername": "newsletter",
+    "version": "0.1",
+    "requires": "5.0",
+    "url": "https://github.com/ThomasTJdev/nimwc_newsletter.git",
+    "method": "git",
+    "tags": [
+      "newsletter",
+      "mails",
+      "mailinglist"
+    ],
+    "description": "Mailing list / Newsletter",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/nimwc_newsletter",
+    "sustainability": "",
+    "email": "codefactory@ttj.dk"
   }
 ]
