@@ -133,7 +133,7 @@
     "description": "Simple & minimal full-page **Events Calendar** for Nim Website Creator, uses ISO Date as URL, Time agnostic (whole day events), English/Spanish, MarkDown/RST Descriptions.",
     "license": "PPL",
     "web": "https://github.com/juancarlospaco/nim-calendar",
-    "sustainability": "",
+    "sustainability": "https://liberapay.com/juancarlospaco/donate",
     "email": "juancarlospaco@gmail.com"
   },
   {
