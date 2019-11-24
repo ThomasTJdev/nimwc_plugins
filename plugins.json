@@ -2,8 +2,8 @@
   {
     "name": "Backup",
     "foldername": "backup",
-    "version": "0.5",
-    "requires": "5.5.0",
+    "version": "0.6",
+    "requires": "6.0",
     "url": "https://github.com/ThomasTJdev/nimwc_backup.git",
     "method": "git",
     "tags": [
@@ -19,8 +19,8 @@
   {
     "name": "Contact",
     "foldername": "contact",
-    "version": "0.4",
-    "requires": "5.5.0",
+    "version": "0.5",
+    "requires": "6.0",
     "url": "https://github.com/ThomasTJdev/nimwc_contact.git",
     "method": "git",
     "tags": [
@@ -36,8 +36,8 @@
   {
     "name": "Mailer",
     "foldername": "mailer",
-    "version": "0.2",
-    "requires": "5.0",
+    "version": "0.4",
+    "requires": "6.0",
     "url": "https://github.com/ThomasTJdev/nimwc_mailer.git",
     "method": "git",
     "tags": [
@@ -54,8 +54,8 @@
   {
     "name": "Open registration",
     "foldername": "openregistration",
-    "version": "0.4",
-    "requires": "5.5.0",
+    "version": "0.5",
+    "requires": "6.0",
     "url": "https://github.com/ThomasTJdev/nimwc_openregistration.git",
     "method": "git",
     "tags": [
@@ -71,8 +71,8 @@
   {
     "name": "Templates",
     "foldername": "templates",
-    "version": "0.2",
-    "requires": "5.0",
+    "version": "0.3",
+    "requires": "6.0",
     "url": "https://github.com/ThomasTJdev/nimwc_templates.git",
     "method": "git",
     "tags": [
@@ -87,8 +87,8 @@
   {
     "name": "Themes",
     "foldername": "themes",
-    "version": "0.3",
-    "requires": "5.0",
+    "version": "0.4",
+    "requires": "6.0",
     "url": "https://github.com/ThomasTJdev/nimwc_themes.git",
     "method": "git",
     "tags": [
@@ -105,8 +105,8 @@
   {
     "name": "Statistics",
     "foldername": "statistics",
-    "version": "0.1",
-    "requires": "5.0",
+    "version": "0.2",
+    "requires": "6.0",
     "url": "https://github.com/ThomasTJdev/nimwc_statistics.git",
     "method": "git",
     "tags": [
@@ -139,8 +139,8 @@
   {
     "name": "Newsletter",
     "foldername": "newsletter",
-    "version": "0.2",
-    "requires": "5.0",
+    "version": "0.4",
+    "requires": "6.0",
     "url": "https://github.com/ThomasTJdev/nimwc_newsletter.git",
     "method": "git",
     "tags": [
