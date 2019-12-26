@@ -17,6 +17,23 @@
     "email": "codefactory@ttj.dk"
   },
   {
+    "name": "Calendar",
+    "foldername": "calendar",
+    "version": "0.1",
+    "requires": "5.0",
+    "url": "https://github.com/juancarlospaco/nimwc-calendar.git",
+    "method": "git",
+    "tags": [
+      "calendar",
+      "events"
+    ],
+    "description": "Simple & minimal full-page **Events Calendar** for Nim Website Creator, uses ISO Date as URL, Time agnostic (whole day events), English/Spanish, MarkDown/RST Descriptions.",
+    "license": "PPL",
+    "web": "https://github.com/juancarlospaco/nim-calendar",
+    "sustainability": "https://liberapay.com/juancarlospaco/donate",
+    "email": "juancarlospaco@gmail.com"
+  },
+  {
     "name": "Contact",
     "foldername": "contact",
     "version": "0.5",
@@ -52,6 +69,24 @@
     "email": "codefactory@ttj.dk"
   },
   {
+    "name": "Newsletter",
+    "foldername": "newsletter",
+    "version": "0.4",
+    "requires": "6.0",
+    "url": "https://github.com/ThomasTJdev/nimwc_newsletter.git",
+    "method": "git",
+    "tags": [
+      "newsletter",
+      "mails",
+      "mailinglist"
+    ],
+    "description": "Mailing list / Newsletter",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/nimwc_newsletter",
+    "sustainability": "",
+    "email": "codefactory@ttj.dk"
+  },
+  {
     "name": "Open registration",
     "foldername": "openregistration",
     "version": "0.5",
@@ -65,6 +100,23 @@
     "description": "Enables public users to register an account with the status 'user'.",
     "license": "MIT",
     "web": "https://github.com/ThomasTJdev/nimwc_openregistration",
+    "sustainability": "",
+    "email": "codefactory@ttj.dk"
+  },
+  {
+    "name": "Statistics",
+    "foldername": "statistics",
+    "version": "0.2",
+    "requires": "6.0",
+    "url": "https://github.com/ThomasTJdev/nimwc_statistics.git",
+    "method": "git",
+    "tags": [
+      "statistics",
+      "stats"
+    ],
+    "description": "Statistics on registered users, download counts, blog views, e.g.",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/nimwc_statistics",
     "sustainability": "",
     "email": "codefactory@ttj.dk"
   },
@@ -99,58 +151,6 @@
     "description": "Switch between different themes/stylesheets. Save you design to a CSS file.",
     "license": "MIT",
     "web": "https://github.com/ThomasTJdev/nimwc_themes",
-    "sustainability": "",
-    "email": "codefactory@ttj.dk"
-  },
-  {
-    "name": "Statistics",
-    "foldername": "statistics",
-    "version": "0.2",
-    "requires": "6.0",
-    "url": "https://github.com/ThomasTJdev/nimwc_statistics.git",
-    "method": "git",
-    "tags": [
-      "statistics",
-      "stats"
-    ],
-    "description": "Statistics on registered users, download counts, blog views, e.g.",
-    "license": "MIT",
-    "web": "https://github.com/ThomasTJdev/nimwc_statistics",
-    "sustainability": "",
-    "email": "codefactory@ttj.dk"
-  },
-  {
-    "name": "Calendar",
-    "foldername": "calendar",
-    "version": "0.1",
-    "requires": "5.0",
-    "url": "https://github.com/juancarlospaco/nimwc-calendar.git",
-    "method": "git",
-    "tags": [
-      "calendar",
-      "events"
-    ],
-    "description": "Simple & minimal full-page **Events Calendar** for Nim Website Creator, uses ISO Date as URL, Time agnostic (whole day events), English/Spanish, MarkDown/RST Descriptions.",
-    "license": "PPL",
-    "web": "https://github.com/juancarlospaco/nim-calendar",
-    "sustainability": "https://liberapay.com/juancarlospaco/donate",
-    "email": "juancarlospaco@gmail.com"
-  },
-  {
-    "name": "Newsletter",
-    "foldername": "newsletter",
-    "version": "0.4",
-    "requires": "6.0",
-    "url": "https://github.com/ThomasTJdev/nimwc_newsletter.git",
-    "method": "git",
-    "tags": [
-      "newsletter",
-      "mails",
-      "mailinglist"
-    ],
-    "description": "Mailing list / Newsletter",
-    "license": "MIT",
-    "web": "https://github.com/ThomasTJdev/nimwc_newsletter",
     "sustainability": "",
     "email": "codefactory@ttj.dk"
   }
