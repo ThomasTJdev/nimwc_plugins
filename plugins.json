@@ -109,7 +109,7 @@
   {
     "name": "Newsletter",
     "foldername": "newsletter",
-    "version": "0.4",
+    "version": "0.5",
     "requires": "6.0",
     "url": "https://github.com/ThomasTJdev/nimwc_newsletter.git",
     "method": "git",
